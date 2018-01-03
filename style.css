@@ -1,1 +1,37 @@
 @CHARSET "UTF-8";
+
+body {
+  background: #EEE;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+
+.topstripe {
+  box-sizing: border-box;
+  background-color: #3587A4;
+  overflow: auto;
+  padding: 18px 50px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  color: #FFF;
+  display: inline-block;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 20px 18px 10px 18px;
+  text-transform: uppercase;
+}
