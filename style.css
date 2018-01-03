@@ -1,16 +1,16 @@
 @CHARSET "UTF-8";
 
 body {
-  background: #EEE;
+  background: #ccccff;
   margin: 0;
   padding: 0;
 }
 
-/* Navigation */
+/* Top Stripe */
 
 .topstripe {
   box-sizing: border-box;
-  background-color: #3587A4;
+  background-color: #ffee4d;
   overflow: auto;
   padding: 18px 50px;
   position: relative;
@@ -25,7 +25,7 @@ ul {
 }
 
 li {
-  color: #FFF;
+  color: #000;
   display: inline-block;
   font-family: 'Oxygen', sans-serif;
   font-size: 16px;
@@ -34,4 +34,21 @@ li {
   margin: 0;
   padding: 20px 18px 10px 18px;
   text-transform: uppercase;
+}
+
+table {
+  height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 80%;
+}
+
+td {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding: 20px;
+    font-size: 18px;
+  text-align: left;
 }
