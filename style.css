@@ -31,12 +31,12 @@ body {
 .topmenu li {
   color: #000;
   font-family: 'Oxygen', sans-serif;
-  font-size: 16px;
+  font-size: 100%;
   font-weight: 300;
   letter-spacing: 2px;
     text-transform: uppercase;
   margin: 0;
-  padding: 20px 36px 10px 0px;
+  padding: 20px 28px 10px;
   float: right;
 }
 
@@ -50,7 +50,7 @@ table {
   margin: 20px auto;
   overflow-y: scroll;
 
-  width: 80%;
+  width: 90%;
 
 }
 
@@ -63,7 +63,57 @@ td {
   width: 50%;
 }
 
+
 img{
-    width: 100%;
-    
+    width: 100%;   
+}
+
+
+/*Stack table on phone screens, enlarge my logo, and reduce top stripe's font size*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+table {
+  height: 100%;
+  margin: 20px auto;
+  overflow-y: scroll;
+
+  width: 90%;
+
+}
+
+td {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  padding: 20px;
+  width: 100%;
+}
+
+
+.home_button img{
+    width: 13%;
+     float: left;   
+}
+
+
+.topmenu li {
+  color: #000;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 80%;
+  font-weight: 300;
+  letter-spacing: 2px;
+    text-transform: uppercase;
+  margin: 0;
+  padding: 10px 14px 5px;
+  float: right;
+}
+
 }
