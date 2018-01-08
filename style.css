@@ -79,7 +79,7 @@ img{
 	
 table {
   height: 100%;
-  margin: 20px auto;
+  margin: 20px 20px;
   overflow-y: scroll;
 
   width: 90%;
@@ -91,7 +91,7 @@ td {
   font-weight: 400;
   font-size: 18px;
   text-align: left;
-  padding: 20px;
+  padding: 20px 10px;
   width: 100%;
 }
 
