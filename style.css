@@ -109,7 +109,7 @@ td {
 
 .bookCover{
       padding: 20px;
-      width: 100%;
+      width: 90%;
 }
 
 .bookQuote{
@@ -118,7 +118,7 @@ td {
   font-size: 75%;
   text-align: left;
   padding: 20px;
-      width: 100%;
+      width: 90%;
 }
 
 .home_button img{
