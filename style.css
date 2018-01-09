@@ -107,6 +107,19 @@ td {
   width: 100%;
 }
 
+.bookCover{
+      padding: 20px;
+      width: 100%;
+}
+
+.bookQuote{
+      font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 75%;
+  text-align: left;
+  padding: 20px;
+      width: 100%;
+}
 
 .home_button img{
     width: 16%;
@@ -117,12 +130,12 @@ td {
 .topmenu li {
   color: #000;
   font-family: 'Open Sans', sans-serif;
-  font-size: 85%;
+  font-size: 75%;
   font-weight: 300;
   letter-spacing: 2px;
     text-transform: uppercase;
   margin: 0;
-  padding: 10px 14px 5px;
+  padding: 2px 10px 2px;
   float: right;
 }
 
