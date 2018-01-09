@@ -49,7 +49,6 @@ table {
   height: 100%;
   margin: 20px auto;
   overflow-y: scroll;
-
   width: 90%;
 
 }
@@ -68,6 +67,19 @@ img{
     width: 100%;   
 }
 
+.bookCover{
+      padding: 20px;
+      width: 20%;
+}
+
+.bookQuote{
+      font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  padding: 20px;
+      width: 80%;
+}
 
 /*Stack table on phone screens, enlarge my logo, and reduce top stripe's font size*/
 @media (max-width: 700px) {
