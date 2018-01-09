@@ -82,7 +82,7 @@ img{
 }
 
 /*Stack table on phone screens, enlarge my logo, and reduce top stripe's font size*/
-@media (max-width: 700px) {
+@media (max-width: 740px) {
 
 	/* Force table to not be like tables anymore */
 	table, thead, tbody, th, td, tr { 
