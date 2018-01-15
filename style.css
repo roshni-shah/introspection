@@ -81,6 +81,15 @@ img{
       width: 80%;
 }
 
+.monospace{
+      font-family: 'Inconsolata', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  padding: 20px;
+      width: 80%;
+}
+
 /*Stack table on phone screens, enlarge my logo, and reduce top stripe's font size*/
 @media (max-width: 740px) {
 
