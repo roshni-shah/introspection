@@ -1,4 +1,4 @@
-
+function myHeart(){
 //Hi Mom, Happy Mother's Day!!!
 //Thank you for being an amazing role model. 
 //As a gift, open Chrome Developer Tools. 
@@ -6,7 +6,7 @@
 //Replace 'mom' with any # between 1 and 10. Click enter.  
 //You'll get that many bits of love from me :)
 //Love, Roshni
-var mom = 5;
+var mom = 4;
 var x = mom*10; 
 var h = x/2;
 var ms = (h/5)*2;
@@ -48,3 +48,4 @@ var line1 = "";
   }
 }
 //There's probably a simpler way to write this. But you know simple isn't me :)
+}
