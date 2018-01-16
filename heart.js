@@ -1,11 +1,4 @@
 function myHeart() {
-//Hi Mom, Happy Mother's Day!!!
-//Thank you for being an amazing role model. 
-//As a gift, open Chrome Developer Tools. 
-//Paste this code in the console.
-//Replace 'mom' with any # between 1 and 10. Click enter.  
-//You'll get that many bits of love from me :)
-//Love, Roshni
 var mom = document.getElementById("myNumber").value;
 var x = mom*10; 
 var h = x/2;
