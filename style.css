@@ -4,6 +4,11 @@ body {
   padding: 0;
 }
 
+.challenge{
+        text-align: center;
+
+}
+
 /* Top Stripe */
 
 .topstripe {
@@ -84,17 +89,24 @@ img{
 .monospace{
       font-family: 'Inconsolata', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 8px;
   text-align: left;
-  padding: 20px;
-      width: 80%;
+  padding: 10px;
+}
+
+.monotext{
+      font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: left;
+  padding: 10px;
+          vertical-align: top;
 }
 
 /*Stack table on phone screens, enlarge my logo, and reduce top stripe's font size*/
 @media (max-width: 740px) {
 
 	/* Force table to not be like tables anymore */
-	table, thead, tbody, th, td, tr { 
+	table, td, tr { 
 		display: block; 
 	}
 	
