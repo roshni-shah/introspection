@@ -4,6 +4,10 @@ body {
   padding: 0;
 }
 
+.smalltext {
+      font-size: 60%;
+}
+
 /* Top Stripe */
 
 .topstripe {
