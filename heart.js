@@ -6,8 +6,8 @@ var ms = (h/5)*2;
 var me = (h/5)*3;
 var line1 = "<br>";
 //validate number 1-10; otherwise return error
- if (mom < 1 || mom > 10) {
-  document.getElementById('heartError').innerHTML= "Number must be between 1 and 10.";
+ if (mom <= 0 || mom >= 6) {
+  document.getElementById('heartError').innerHTML= "Number must be between 1 and 5.";
     }
     else{
 //first line
